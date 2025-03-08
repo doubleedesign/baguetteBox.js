@@ -9,6 +9,7 @@
 
 (function (root, factory) {
     'use strict';
+    if(!root) root = window; // Allows use as an ES module import where "this" is undefined
     if (typeof define === 'function' && define.amd) {
         define(factory);
     } else if (typeof exports === 'object') {

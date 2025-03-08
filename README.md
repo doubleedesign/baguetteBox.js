@@ -126,6 +126,16 @@ const baguetteBox = require('baguettebox.js');
 import baguetteBox from 'baguettebox.js';
 ```
 
+### ES Modules (when installed via Composer)
+
+```js
+import 'path/to/vendor/feimosi/baguettebox.js/src/baguetteBox.js';
+
+window.addEventListener('load', function() {
+	window.baguetteBox.run('.gallery');
+});
+```
+
 ### Sass
 
 ```scss
