@@ -99,7 +99,7 @@ Add the following to your `composer.json` file (updating the version as required
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/feimosi/baguetteBox.js"
+            "url": "https://github.com/doubleedesign/baguetteBox.js"
         }
     ],
     "require": {
@@ -132,7 +132,7 @@ import baguetteBox from 'baguettebox.js';
 import 'path/to/vendor/feimosi/baguettebox.js/src/baguetteBox.js';
 
 window.addEventListener('load', function() {
-	window.baguetteBox.run('.gallery');
+    window.baguetteBox.run('.gallery');
 });
 ```
 
