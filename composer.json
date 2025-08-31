@@ -1,6 +1,7 @@
 {
     "name": "feimosi/baguettebox.js",
     "description": "Simple and easy to use lightbox script",
+    "version": "1.12.1",
     "type": "library",
     "license": "MIT",
     "authors": [
